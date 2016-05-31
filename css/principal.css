@@ -275,11 +275,15 @@ text-decoration:none;
     }
 
 .swiper-slide img{
-    max-width: 100%;
-	min-width:100%;
-    width: 100%;
-    height: auto;
-}
+	width:auto;
+	height:250px;
+	border: 5px solid black;
+	}
+	.swiper-slide img:hover{
+	width:auto;
+	height:250px;
+	border: 5px solid dimgray;
+	}
 
 
 .artistas-portrait{
