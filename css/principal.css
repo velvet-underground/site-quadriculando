@@ -276,8 +276,8 @@ text-decoration:none;
 
 .swiper-slide img{
     max-width: 100%;
-	min-width:50px;
-    width: auto;
+	min-width:100%;
+    width: 100%;
     height: auto;
 }
 
