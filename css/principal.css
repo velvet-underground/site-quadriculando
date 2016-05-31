@@ -182,6 +182,10 @@ padding:0;
 .socials a:hover{
 color:#555;
 }
+
+#n-footer{
+margin-bottom:0;border-radius:0;min-height:auto!important;
+}
  
 #n-footer li{
 width:100%;
@@ -240,7 +244,7 @@ text-decoration:none;
 /*SWIPER*/
 .swiper-container {
         width: 100%;
-        height: 200px;
+        height: 500px;
 		max-height:300px;
         margin: 20px auto;
     }
@@ -308,16 +312,19 @@ border:5px solid black;
 .toggle{
 background-color:black;
 width:100%;
-height:1200px;
+height:55%;
+margin: 0;
+padding: 0;
+position: relative;
 }
+
 
 div.toggle{display: none;}
 
 .galeria img{
-width:100%;
-padding-bottom:10%;
-padding-right:15%;
-padding-left:15%;
+width:8rem;
+float: left;
+
 
 }
 
@@ -325,7 +332,17 @@ padding-left:15%;
 background-color:black;
 float:left;
 width:25%;
+height:45%;
+}
+
+/*.galeria button{
+width:100%;
 height:auto;
+padding: 0;
+}*/
+
+button img{
+padding: 0;
 }
 
 h3{
@@ -333,6 +350,7 @@ color:white;
 padding-top:3%;
 padding-bottom:30px;
 text-align:center;
+margin: 0;
 }
 
 .toggle p{
@@ -370,19 +388,34 @@ font-size:2.25rem;
 margin-left:100%;
 }
 
+h3{margin: 0;padding-bottom:2%; font-size:1.5rem;width:100%;text-align: center}
+
 @media(max-width:480px){
 .galeria img{
 
-width:200px;
+width:100%;
+    float: left;
 
 }
+        
+    
+    #botao-modal{
+        padding: 0;
+        margin: 0;
+        width:80px;
+        height:80px;
+        
+    }
 .toggle p{
 width:90%;
 margin:0 5% 0 5%;
 font-size:1.5rem;
 }
 div.galeria{
-width:100%;    
+    padding: 4px;
+    margin-bottom: 15%;
+width:100%;
+height: auto;
 }
 li.trigger a img{
 min-width:31.5%!important;  
@@ -390,7 +423,7 @@ max-width:31.5%!important;
     margin-bottom: 0.5%;
 }
 .artistas-portrait{
-margin-bottom:55%;
+margin-bottom:65%;
 }
 
 [type="submit"]{
