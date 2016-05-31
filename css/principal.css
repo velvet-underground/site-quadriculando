@@ -168,7 +168,7 @@ border:none;
 }
 
 .socials{
-font-size:1.5rem;
+font-size:1.25rem;
 width:50%;
 margin:auto;
 }
@@ -384,6 +384,7 @@ font-size:2.25rem;
 }
 
 @media(max-width:580px){
+
 [src="imagens/quadriculando-sobre.jpg"]{
 margin-left:100%;
 }
@@ -423,7 +424,7 @@ max-width:31.5%!important;
     margin-bottom: 0.5%;
 }
 .artistas-portrait{
-margin-bottom:65%;
+margin-bottom:70%;
 }
 
 [type="submit"]{
