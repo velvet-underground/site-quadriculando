@@ -418,14 +418,13 @@ background-color:black;
  
 /*MEDIA QUERY*/
 
-@media(max-width:380px){
-h2{
-font-size:1.5rem;
+@media(max-width:360px){
+#container{
+width:350px;
 }
 }
-
 @media(min-width:1800px) and (max-width:5000px){
-.toggle p{
+.toggle p,p{
 font-size:2.25rem;
 }
 }
@@ -440,14 +439,22 @@ font-size:2.25rem;
     width:100%;
     display: block;
 }
-    
-p{
-    font-size:1rem!important;
 }
+    
 
-h3{margin: 0;padding-bottom:2%; font-size:1.5rem;width:100%;text-align: center}
 
 @media(max-width:480px){
+    
+p{
+        font-size:0.9rem!important;
+    }
+    
+h2{
+background: black!important;
+color:white;
+    padding-bottom: 5%;
+}
+    
 .galeria img{
 
 width:100%;
@@ -462,14 +469,13 @@ font-size: 1.2rem;
 font-size:0.7rem;
 }
         
-    
-    #botao-modal{
-        padding: 0;
-        margin: 0;
-        width:80px;
-        height:80px;
+#botao-modal{
+padding: 0;
+margin: 0;
+width:80px;
+height:80px;
         
-    }
+}
 .toggle p{
 width:90%;
 margin:0 5% 0 5%;
@@ -497,40 +503,3 @@ font-size:1.5rem;
 }
 
 }
-
-/*
-@media(max-width:680px){
-    ul li{
-        display:none;
-    }
-    
-    ul li:last-child{
-        display: block;
-    }
-    
-    h1{
-        left:315px;
-    }
-    html{
-        width:680px;
-    }
-	main{margin-top: 230px; /*55px*/}
-    
-    /*header nav ul li:nth-child(2){
-        margin-top: 50px;
-    }
-    header nav ul li{
-        font-size: 1.25rem;
-        width: 75%;
-    }
-    
-    footer ul li,p{
-        font-size: 1.25rem;
-    }
-    
-    
-    
-    header{
-        height:235px;
-    }
-}*/
