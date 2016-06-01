@@ -418,11 +418,6 @@ background-color:black;
  
 /*MEDIA QUERY*/
 
-@media(max-width:360px){
-#container{
-width:350px;
-}
-}
 @media(min-width:1800px) and (max-width:5000px){
 .toggle p,p{
 font-size:2.25rem;
@@ -446,7 +441,7 @@ font-size:2.25rem;
 @media(max-width:480px){
     
 p{
-        font-size:0.9rem!important;
+    font-size:1.25rem!important;
     }
     
 h2{
@@ -502,4 +497,14 @@ input,textarea{
 font-size:1.5rem;
 }
 
+}
+
+@media(max-width:360px){
+    [src="imagens/quadriculando-sobre.jpg"]{
+        margin-left:5%;
+        margin-right:10%;
+    }
+    p.sobre{font-size:0.8rem!important;}
+    .telefone{font-size:1.25rem!important;
+    }
 }
