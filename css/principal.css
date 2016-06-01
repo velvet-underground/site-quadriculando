@@ -6,10 +6,9 @@
 html,body{
     /*font-family:FontePadrao;*/
 	font-family: 'Montserrat', sans-serif;
-	font-size:0.8rem;
+	font-size:0.9rem;
 	
 }
-
 
 
  
@@ -227,7 +226,8 @@ nav#mapa-site ul li{
 main p{
 	font-size:1.25rem;
 	margin-top:25px;
-	margin-left:25px;
+	margin-left:4%;
+    margin-right:4%;
 }
 
 [src="imagens/quadriculando-sobre.jpg"]{
@@ -378,7 +378,7 @@ button#botao-modal.btn.btn-primary{
 }
 
 button#botao-modal.btn.btn-primary:first-child{
-    margin-left: 13%;
+    margin-left: 11%;
 }
 
 button#botao-modal.btn.btn-primary img{
