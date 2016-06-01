@@ -1,0 +1,11 @@
+-arrumar luan carvalho [x]
+-colocar menus em CAPSLOCK [x]
+-arranjar um jeito de cobrir espaço vazio do index e artistas
+-colocar fotos dos artistas em p/b, ao ser clicada ficar colorida*
+-fazer página 'sobre'
+-optimizar
+
+
+
+
+*opcional
