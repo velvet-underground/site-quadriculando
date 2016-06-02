@@ -424,8 +424,14 @@ font-size:2.25rem;
 }
 }
 
+@media(max-width:520px){
+	p.sobre{font-size:0.8rem!important;}
+    .telefone{font-size:1.25rem!important;
+    }
+}
 
 @media(max-width:480px){
+
     [src="imagens/quadriculando-sobre.jpg"]{
     
     margin-left:25%;
@@ -504,8 +510,5 @@ font-size:1.5rem;
     [src="imagens/quadriculando-sobre.jpg"]{
         margin-left:5%;
         margin-right:10%;
-    }
-    p.sobre{font-size:0.8rem!important;}
-    .telefone{font-size:1.25rem!important;
     }
 }
